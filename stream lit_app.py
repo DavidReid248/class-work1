@@ -9,3 +9,7 @@ st.set_up_config(
   layout = 'wide'
 )
 
+# Custom CSS (optional - for styling )
+st.markdown('''
+                <style>
+                .main-header 
