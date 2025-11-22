@@ -19,5 +19,5 @@ st.markdown('''
 
 # Sidebar
 st.sidebar.title('👔 Navigation')
-page = st.sidebar.radio('Go'to ,
+page = st.sidebar.radio('Go to' ,
                         ['.🛖 Home', '🙋‍♂️ About', '💼 Projects', '🛠 Skills' ,'📝 Resume', '📩 Contact' ])
