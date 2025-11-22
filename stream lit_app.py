@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 
 # page config
-st.set_up_config(
+st.set_page_config(
   page_title='David Reid | portfolio', 
   page_icon='👌',
   layout = 'wide'
