@@ -70,4 +70,6 @@ elif page == '🙋‍♂️ About':
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
                 - Activities: church club, playing chess, and playing basketball.
             ''')
+    st.subheader('interest and hobbies😁')
+    interest= ['Ai Learning', 'Riding my bike', 'Playing video games', 'Playing volleyball', 'watching Anime']
         
