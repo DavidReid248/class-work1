@@ -1,4 +1,4 @@
-limport streamlit as st
+import streamlit as st
 import pandas as pd
 from datetime import datetime
 
@@ -64,7 +64,7 @@ elif page == '🙋‍♂️ About':
    # Timeline of my Professional Journey 
    st.subheader('My journey 🗾') 
 
-elif page == '🙋‍♂️ About':
+
   
     
   
