@@ -66,10 +66,10 @@ elif page == '🙋‍♂️ About':
 
     with st.expander('2025 - present: Medgar evers college'):
         st.write('''
-        - Major: Computer Information Systems
-                - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: church club, playing chess, and playing basketball.
+                    - Major: Computer Information Systems
+                    - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+                    - Activities: church club, playing chess, and playing basketball.
             ''')
     st.subheader('interest and hobbies😁')
-    interest= ['Ai Learning', 'Riding my bike', 'Playing video games', 'Playing volleyball', 'watching Anime']
+    interest = ['Ai Learning', 'Riding my bike', 'Playing video games', 'Playing volleyball', 'watching Anime']
         
