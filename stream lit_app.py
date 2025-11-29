@@ -59,10 +59,10 @@ with col1:
 
 # About page
 elif page == '🙋‍♂️ About':
-  st.title('About Me')
+st.title('About Me')
 
-  # Timeline of my Professional Journey 
-  st.subheader('My journey 🗾') 
+ # Timeline of my Professional Journey 
+st.subheader('My journey 🗾') 
 
 
   
