@@ -59,7 +59,7 @@ with col1:
 
 # About page
 elif page == '🙋‍♂️ About':
-pass
+pass page == '🙋‍♂️ About':
   st.title('About Me')
 
   # Timeline of my Professional Journey 
