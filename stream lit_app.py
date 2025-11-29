@@ -63,6 +63,7 @@ if page == '🙋‍♂️ About':
 
    # Timeline of my Professional Journey 
    st.subheader('My journey 🗾') 
+  elif
   
     
   
