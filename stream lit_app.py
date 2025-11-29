@@ -46,6 +46,7 @@ with col1:
   st.write('''
                 I am a Computer Information Systems student passionate about web development and emerging technologies like Ai. Currently learning
                 HTML, CSS, JavaScript, and Python to build innovative solutions.
+                 
                  👌 **Current Focus:** Building interactive web applications with Streamlit
             
                 📔 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
