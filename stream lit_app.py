@@ -75,7 +75,7 @@ elif page == '🙋‍♂️ About':
 
 # Display the  interests in columns 
 cols = st.columns(3)
-  for i, interest in enumerate(interest):
+for i, interest in enumerate(interest):
   with cols[i % 3]:
       st.info(f'⏹️ {interest}')
 
