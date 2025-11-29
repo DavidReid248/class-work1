@@ -88,3 +88,8 @@ elif page == '💼 Projects':
 
     with col1:
       st.image('https://cdn.prod.website-files.com/62c5836076839ad95e36215d/65e5c538206782dce6702362_Portfolio%20Examples%20for%20Students%20(1).webp', use_column_width = True)
+
+    with col2:
+        st.subheader(' 👦 My portfolio')
+        st.write(' Building a portfolio with python')
+        st.caption('🛖 Home', '🙋‍♂️ About', '💼 Projects', '🛠 Skills', '📝 Resume', '📩 Contact')
