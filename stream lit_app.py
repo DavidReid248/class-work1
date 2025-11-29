@@ -57,9 +57,9 @@ with col1:
     # Placeholder for image
     st.image('https://raw.githubusercontent.com/DavidReid248/class-work1/refs/heads/main/dog.jpg', use_column_width=True)
 
-# About page
-elif page == '🙋‍♂️ About':
-  st.title('About me')
+# About Page
+elif page == '🤠 About':
+  st.title('About Me')
 
   # Timeline of Professional Journey 
   st.subheader('My journey 🗾') 
