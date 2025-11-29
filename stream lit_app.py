@@ -37,9 +37,9 @@ with col2:
 with col3:
    st.metric('Skills', '10+', '👔')
 
-  st.write('---')
+st.write('---')
 
-  # Introduction with columns
+# Introduction with columns
 col1, col2, = st.columns([2,1])
 with col1:
   st.subheader('Welcome to my digital space!🛜')
