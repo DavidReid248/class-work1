@@ -87,4 +87,4 @@ elif page == '💼 Projects':
         col1, col2 = st.columns([1, 2])
 
     with col1:
-      st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYyYAq6HufUMlvw6jf7Tw_8BVfBkCZab_eqg&s', use_column_width = True)
+      st.image('https://cdn.prod.website-files.com/62c5836076839ad95e36215d/65e5c538206782dce6702362_Portfolio%20Examples%20for%20Students%20(1).webp', use_column_width = True)
