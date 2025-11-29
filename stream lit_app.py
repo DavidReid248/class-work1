@@ -28,7 +28,7 @@ if page == '🛖 Home':
   st.markdown('<p class="sub-header">David Reid Student | Medgar Evers College</p>', unsafe_allow_html=True)
 
 # Three Columns for stats
- col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3)
 
   with col1:
       st.metric('GPA', '3.8', '📔')
