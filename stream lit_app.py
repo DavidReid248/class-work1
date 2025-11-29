@@ -58,7 +58,7 @@ with col1:
     st.image('https://raw.githubusercontent.com/DavidReid248/class-work1/refs/heads/main/dog.jpg', use_column_width=True)
 
 # About page
-elif page == '🙋‍♂️ About':
+elif page =='🙋‍♂️ About':
   st.title('About me')
 
   # Timeline of Professional Journey 
