@@ -61,7 +61,7 @@ with col1:
 if page == '🙋‍♂️ About':
    st.title('About Me')
 
-  # Timeline of Professional Journey 
+  # Timeline of my Professional Journey 
   st.subheader('My journey 🗾') 
   
     
