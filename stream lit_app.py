@@ -96,3 +96,14 @@ elif page == '💼 Projects':
 
 elif page == '🛠 Skills':
   st.title('Technical Skills')
+
+# Skills with progress bars
+st.subheader('Programming Languages')
+
+Skills data = {
+    'Python' : 60,
+    'HTML/CSS' : 20,
+    'JavaScript' : 15,
+    'SQL' : 0,
+    'Technical Writing' : 20
+}
