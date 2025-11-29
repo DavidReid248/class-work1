@@ -101,9 +101,9 @@ elif page == '🛠 Skills':
 st.subheader('Programming Languages')
 
 Skills data = {
-    'Python' : 60,
-    'HTML/CSS' : 20,
-    'JavaScript' : 15,
-    'SQL' : 0,
-    'Technical Writing' : 20
+  'Python' : 60,
+  'HTML/CSS' : 20,
+  'JavaScript' : 15,
+  'SQL' : 0,
+  'Technical Writing' : 20
 }
