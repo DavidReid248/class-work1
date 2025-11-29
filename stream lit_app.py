@@ -79,7 +79,7 @@ for i, interest in enumerate(interest):
     with cols[i%3]:
         st.info(f'⏹️ {interest}')
 
-elif page == '💼 Projects':
+  elif page == '💼 Projects':
     st.title('My work')
     st.write('This my first project:')
         
