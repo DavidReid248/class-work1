@@ -87,4 +87,4 @@ elif page == '💼 Projects':
         col1, col2 = st.columns([1, 2])
 
     with col1:
-      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
+      st.image('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYyYAq6HufUMlvw6jf7Tw_8BVfBkCZab_eqg&s', use_column_width = True)
