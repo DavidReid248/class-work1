@@ -64,6 +64,4 @@ elif page == '🙋‍♂️ About':
     # Timeline of my Professional Journey 
     st.subheader('My journey 🗾')
 
-else:
-    # Fallback for other pages
-    st.write(f"Coming soon: {page}")
+
