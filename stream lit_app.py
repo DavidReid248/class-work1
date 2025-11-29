@@ -20,7 +20,7 @@ st.markdown('''
 # Sidebar
 st.sidebar.title('👔 Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🛖 Home, 🙋‍♂️ About, 💼 Projects, 🛠 Skills, 📝 Resume, 📩 Contact'])
+                        ['🛖 Home,' 🙋‍♂️ About', '💼 Projects', '🛠 Skills', '📝 Resume', '📩 Contact'])
 
 # Home Page
 if page == '🛖 Home':
@@ -92,4 +92,4 @@ elif page == '💼 Projects':
     with col2:
         st.subheader(' 👦 My portfolio')
         st.write(' Building a portfolio with python')
-        st.caption('🛖 Home', '🙋‍♂️ About', '💼 Projects', '🛠 Skills', '📝 Resume', '📩 Contact')
+        st.caption('🛖 Home, 🙋‍♂️ About, 💼 Projects, 🛠 Skills, 📝 Resume, 📩 Contact')
