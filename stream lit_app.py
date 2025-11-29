@@ -81,3 +81,10 @@ elif page == '🙋‍♂️ About':
 elif page == '💼 Projects':
     st.title('My work')
     st.write('This my first project:')
+
+    # projects 1 
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+
+    with col1:
+      st.image(https://mir-s3-cdn-cf.behance.net/projects/808/a2f882224632473.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg)
