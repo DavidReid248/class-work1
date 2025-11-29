@@ -62,7 +62,7 @@ elif page == '🙋‍♂️ About':
   st.title('About me')
 
   # Timeline of Professional Journey 
-  st.subheader('My journey 🗾')
+  st.subheader('My journey 🗾') 
   
     
   
