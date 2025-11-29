@@ -93,3 +93,6 @@ elif page == '💼 Projects':
         st.subheader(' 👦 My portfolio')
         st.write(' Building a portfolio with python')
         st.caption('🛖 Home, 🙋‍♂️ About, 💼 Projects, 🛠 Skills, 📝 Resume, 📩 Contact')
+
+elif page == '🛠 Skills':
+  st.title('Technical Skills')
