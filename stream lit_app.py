@@ -54,5 +54,5 @@ with col1:
             ''')
   with col2:
     # Placeholder for image
-    st.image('https://raw.githubusercontent.com/DavidReid/cis211_project1/refs/heads/main/ghows-CC-8c22b822-eb2c-4dfd-bcde-f6a873137205-5297c5e7.webpuse_column_width=True)
+    st.image('https://raw.githubusercontent.com/DavidReid/cis211_project1/refs/heads/main/ghows-CC-8c22b822-eb2c-4dfd-bcde-f6a873137205-5297c5e7.webpuse', use_column_width=True)
   
