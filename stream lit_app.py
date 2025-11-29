@@ -87,4 +87,4 @@ elif page == '💼 Projects':
         col1, col2 = st.columns([1, 2])
 
     with col1:
-      st.image(https://colorlib.com/wp/wp-content/uploads/sites/2/videograph-free-template-353x278.jpg)
+      st.image(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMmLQ1liZsB1dJTPSd_hBBdasqOFNXgv-7AA&s)
