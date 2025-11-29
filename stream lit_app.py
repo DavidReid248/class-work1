@@ -52,5 +52,7 @@ with col1:
             
                 🤹‍♂️ **Fun Fact:** I love learning about different Ai and using them
             ''')
-
+  with col2:
+    # Placeholder for image
+    st.image('https://raw.githubusercontent.com/DavidReid/cis211_project1/refs/heads/main/
   
