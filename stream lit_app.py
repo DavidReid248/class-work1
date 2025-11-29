@@ -73,7 +73,6 @@ elif page == '🙋‍♂️ About':
     st.subheader('interest and hobbies😁')
     interest = ['Ai Learning', 'Riding my bike', 'Playing video games', 'Playing volleyball', 'watching Anime']
 
-    # MUST be inside the About block
     cols = st.columns(3)
     for i, interest_item in enumerate(interest):
         with cols[i % 3]:
