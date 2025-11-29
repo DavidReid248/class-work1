@@ -23,7 +23,7 @@ page = st.sidebar.radio('Go to' ,
                         ['.🛖 Home',  '🙋‍♂️ About', '💼 Projects', '🛠 Skills' ,'📝 Resume', '📩 Contact' ])
 
 # Home Page
-elif page == '🛖 Home':
+if page == '🛖 Home':
   st.markdown('<p class="main-header">David Reid</p>', unsafe_allow_html=True)
   st.markdown('<p class="sub-header">David Reid Student | Medgar Evers College</p>', unsafe_allow_html=True)
 
@@ -59,6 +59,7 @@ with col1:
 
 # About Page
 elif page == '🙋‍♂️ About':
+
   st.title('About Me')
 
   # Timeline of Professional Journey 
