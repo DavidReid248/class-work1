@@ -58,7 +58,7 @@ with col1:
     st.image('https://raw.githubusercontent.com/DavidReid248/class-work1/refs/heads/main/dog.jpg', use_column_width=True)
 
 # About Page
-run if page == '🙋‍♂️ About'
+run else page == '🙋‍♂️ About':
 
   st.title('About Me')
 
