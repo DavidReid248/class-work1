@@ -87,4 +87,4 @@ elif page == '💼 Projects':
         col1, col2 = st.columns([1, 2])
 
     with col1:
-      st.image(https//mir-s3-cdn-cf.behance.net/projects/808/a2f882224632473.Y3JvcCwxMzgwLDEwODAsMjcwLDA.jpg)
+      st.image(https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/47cb162520a5cb6c736e65362526ab9b55082f74/e73c5cc3ec9ce4c8d6e28652542b6875753a226b)
