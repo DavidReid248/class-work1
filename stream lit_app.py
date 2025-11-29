@@ -57,7 +57,6 @@ if page == '🛖 Home':
         # Placeholder for image
         st.image('https://raw.githubusercontent.com/DavidReid248/class-work1/main/dog.jpg', use_column_width=True)
 
-# About page
 elif page == '🙋‍♂️ About':
     st.title('About Me')
 
@@ -70,16 +69,16 @@ elif page == '🙋‍♂️ About':
                     - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
                     - Activities: church club, playing chess, and playing basketball.
             ''')
+
     st.subheader('interest and hobbies😁')
     interest = ['Ai Learning', 'Riding my bike', 'Playing video games', 'Playing volleyball', 'watching Anime']
 
-# Display the  interests in columns 
-cols = st.columns(3)
-for i, interest in enumerate(interest):
-  with cols[i % 3]:
-      st.info(f'⏹️ {interest}')
+    # MUST be inside the About block
+    cols = st.columns(3)
+    for i, interest_item in enumerate(interest):
+        with cols[i % 3]:
+            st.info(f'⏹️ {interest_item}')
 
 elif page == '💼 Projects':
     st.title('My work')
     st.write('This my first project:')
-        
