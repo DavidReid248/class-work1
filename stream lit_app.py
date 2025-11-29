@@ -23,7 +23,7 @@ page = st.sidebar.radio('Go to' ,
                         ['.🛖 Home',  '🙋‍♂️ About', '💼 Projects', '🛠 Skills' ,'📝 Resume', '📩 Contact' ])
 
 # Home Page
-if page == '🛖 Home':
+elif page == '🛖 Home':
   st.markdown('<p class="main-header">David Reid</p>', unsafe_allow_html=True)
   st.markdown('<p class="sub-header">David Reid Student | Medgar Evers College</p>', unsafe_allow_html=True)
 
@@ -58,7 +58,7 @@ with col1:
     st.image('https://raw.githubusercontent.com/DavidReid248/class-work1/refs/heads/main/dog.jpg', use_column_width=True)
 
 # About Page
-if page == '🙋‍♂️ About':
+elif page == '🙋‍♂️ About':
   st.title('About Me')
 
   # Timeline of Professional Journey 
