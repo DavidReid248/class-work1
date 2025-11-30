@@ -150,3 +150,6 @@ elif page == '📝 Resume':
         file_name='Resume.pdf',
         mime='application/pdf'
     )
+
+elif page == '📩 Contact':
+  st.title("Let's Connect!")
