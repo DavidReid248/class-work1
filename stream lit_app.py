@@ -95,46 +95,47 @@ elif page == '💼 Projects':
         st.caption('🛖 Home, 🙋‍♂️ About, 💼 Projects, 🛠 Skills, 📝 Resume, 📩 Contact')
 
 elif page == '🛠 Skills':
-  st.title('Technical Skills')
+    st.title('Technical Skills')
 
-# Skills with progress bars
-  st.subheader('Programming Languages')
+    # Skills with progress bars
+    st.subheader('Programming Languages')
 
-  skills_data = {
-    'Python': 60,
-    'HTML/CSS': 20,
-    'JavaScript': 15,
-    'SQL': 0,
-    'Technical Writing': 20
-}
+    skills_data = {
+        'Python': 60,
+        'HTML/CSS': 20,
+        'JavaScript': 15,
+        'SQL': 0,
+        'Technical Writing': 20
+    }
 
-  for skill, level in skills_data.items():
-    col1, col2 = st.columns([1, 3])
+    for skill, level in skills_data.items():
+        col1, col2 = st.columns([1, 3])
+
+        with col1:
+            st.write(skill)
+
+        with col2:
+            st.progress(level / 100)
+
+    st.subheader('Tools & Technologies')
+
+    col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.write(skill)
+        st.success('Excel')
+        st.info('Word')
+        st.warning('Access')
 
     with col2:
-        st.progress(level / 100)
+        st.success('PowerPoint')
+        st.info('Google Docs')
+        st.warning('ChatGPT / AI Tools')
 
-  st.subheader('Tools & Technologies')
+    with col3:
+        st.success('Presentations')
+        st.info('Writing')
+        st.warning('Social Media')
 
-col1, col2, col3 = st.columns(3)
-
-  with col1:
-    st.success('Excel')
-    st.info('Word')
-    st.warning('Access')
-
-  with col2:
-    st.success('PowerPoint')
-    st.info('Google Docs')
-    st.warning('ChatGPT / AI Tools')
-
-  with col3:
-    st.success('Presentations')
-    st.info('Writing')
-    st.warning('Social Media')
 
 elif page == '📝 Resume':
-  st.title('Resume')
+    st.title('Resume')
