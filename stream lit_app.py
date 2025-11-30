@@ -183,7 +183,7 @@ elif page == '📩 Contact':
         ]
     )
 
-      st.info(f'Status: {status}')
+    st.info(f'Status: {status}')
 
     # Footer
     st.write('---')
