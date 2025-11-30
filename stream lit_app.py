@@ -98,9 +98,9 @@ elif page == '🛠 Skills':
   st.title('Technical Skills')
 
 # Skills with progress bars
-st.subheader('Programming Languages')
+  st.subheader('Programming Languages')
 
-skills_data = {
+  skills_data = {
     'Python': 60,
     'HTML/CSS': 20,
     'JavaScript': 15,
@@ -108,7 +108,7 @@ skills_data = {
     'Technical Writing': 20
 }
 
-for skill, level in skills_data.items():
+  for skill, level in skills_data.items():
     col1, col2 = st.columns([1, 3])
 
     with col1:
@@ -117,21 +117,21 @@ for skill, level in skills_data.items():
     with col2:
         st.progress(level / 100)
 
-st.subheader('Tools & Technologies')
+  st.subheader('Tools & Technologies')
 
 col1, col2, col3 = st.columns(3)
 
-with col1:
+  with col1:
     st.success('Excel')
     st.info('Word')
     st.warning('Access')
 
-with col2:
+  with col2:
     st.success('PowerPoint')
     st.info('Google Docs')
     st.warning('ChatGPT / AI Tools')
 
-with col3:
+  with col3:
     st.success('Presentations')
     st.info('Writing')
     st.warning('Social Media')
