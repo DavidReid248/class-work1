@@ -135,3 +135,6 @@ with col3:
     st.success('Presentations')
     st.info('Writing')
     st.warning('Social Media')
+
+elif page == '📝 Resume':
+  st.title('Resume')
