@@ -107,3 +107,28 @@ Skills_data = {
     'SQL': 0,
     'Technical Writing': 20
 }
+
+    for skill, level in skills_data.items():
+      col1, col2 = st.columns([1,3])
+      with col1:
+        st.write(skill)
+      with col2:
+        st.progress(level/100)
+
+    st.subheader(' Tools & Technologies')
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+      st.success('Execl')
+      st.info('Word')
+      st.warning('Access')
+
+   with col2:
+    st.success('PowerPoint')
+    st.info('Google Docs')
+    st.warning('ChatGPT/AI Tools')
+
+      with col3:
+    st.success('Presentations')
+    st.info('Writing')
+    st.warning('Social Media')
