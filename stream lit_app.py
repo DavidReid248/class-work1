@@ -168,3 +168,26 @@ elif page == '📩 Contact':
 
     ''')
           
+    #Fun interative element
+    st.subheader('Current Status')
+
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '👩‍💻 Coding',
+            '📕 Studying',
+            '🏀 playing basketball',
+            '🎮 Gaming',
+            '🍔 Eating',
+            '😴 Sleeping',
+        ]
+    )
+
+      st.info(f'Status: {status}')
+
+    # Footer
+    st.write('---')
+    st.markdown(
+        f'<center>Made with 😂 using Streamlit | © {datetime.now().year} David Reid </center>',
+        unsafe_allow_html = True
+    )
