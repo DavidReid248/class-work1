@@ -152,4 +152,19 @@ elif page == '📝 Resume':
     )
 
 elif page == '📩 Contact':
-  st.title("Let's Connect!")
+  st.title("Let's get in touch")
+
+  col1, = st.columns(1)
+
+  with col1:
+    st.subheader('send me a messeage')
+
+    st.write('''
+          📨 **email** davidizel9@gmail.com
+          
+          🌐 **Github**[https://github.com/DavidReid248](https://github.com)
+
+          📸 **instagram** [@ogdried](https://instagram.com)
+
+    ''')
+          
