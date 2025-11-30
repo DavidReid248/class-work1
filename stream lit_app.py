@@ -140,13 +140,13 @@ elif page == '🛠 Skills':
 elif page == '📝 Resume':
     st.title('Resume')
 
-    # Read PDF from my GitHub repository
+    # Read PDF from your project folder (GitHub repo)
     with open('Resume.pdf', 'rb') as pdf_file:
-       PDFbyte = pdf_file.read()
+        PDFbyte = pdf_file.read()
       
     st.download_button(
-      label ='🛄 Download Full Resume (PDF)',
-      data = PDFbyte,
-      file_name = 'Resume.pdf',
-      mine='application/pdf'
+        label='🛄 Download Full Resume (PDF)',
+        data=PDFbyte,
+        file_name='Resume.pdf',
+        mime='application/pdf'
     )
