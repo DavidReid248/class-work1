@@ -139,3 +139,8 @@ elif page == '🛠 Skills':
 
 elif page == '📝 Resume':
     st.title('Resume')
+
+    # Read PDF from my GitHub repository
+    with open('Resume.pdf', 'rb') as pdf_file:
+       PDFbyte = pdf_file.read()
+      
