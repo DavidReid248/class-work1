@@ -31,11 +31,11 @@ if page == '🛖 Home':
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.metric('GPA', '3.8', '📔')
+        st.metric('GPA', '3.0', '📔')
     with col2:
-        st.metric('Projects', '5', '🖥️')
+        st.metric('Projects', '1', '🖥️')
     with col3:
-        st.metric('Skills', '10+', '👔')
+        st.metric('Skills', '8', '👔')
 
     st.write('---')
 
@@ -104,7 +104,7 @@ elif page == '🛠 Skills':
         'Python': 60,
         'HTML/CSS': 20,
         'JavaScript': 15,
-        'SQL': 0,
+        'All Microsoft apps': 70,
         'Technical Writing': 20
     }
 
